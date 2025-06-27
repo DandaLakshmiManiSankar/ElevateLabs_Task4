@@ -18,7 +18,7 @@
 
 ## Steps Performed
 1. Data Preprocessing
-      -Removed unnecessary columns (id, Unnamed: 32)
+   -Removed unnecessary columns (id, Unnamed: 32)
 
   -Converted diagnosis column to binary
 
