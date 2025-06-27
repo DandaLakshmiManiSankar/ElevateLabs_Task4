@@ -23,7 +23,11 @@ Dataset:https://www.kaggle.com/datasets/uciml/breast-cancer-wisconsin-data
 
 -Checked and handled missing values
 
-3. Feature Scaling
+2. Feature Scaling
+
+-Used StandardScaler to normalize all numerical features
+
+4. Feature Scaling
 
 -Used StandardScaler to normalize all numerical features
 
