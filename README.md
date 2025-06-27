@@ -7,43 +7,63 @@ Dataset:https://www.kaggle.com/datasets/uciml/breast-cancer-wisconsin-data
 
 ## Tools & Libraries
 -Python 
+
 -Pandas, NumPy
+
+
 -Matplotlib, Seaborn
+
 -Scikit-learn (LogisticRegression, metrics, preprocessing)
 
 ## Steps Performed
 1. Data Preprocessing
 -Removed unnecessary columns (id, Unnamed: 32)
+
 -Converted diagnosis column to binary
+
 -Checked and handled missing values
 
-2. Feature Scaling
+3. Feature Scaling
+
 -Used StandardScaler to normalize all numerical features
 
-3. Model Training
+4. Model Training
+
 -Applied LogisticRegression with max_iter=10000 to ensure convergence
 
-4. Model Evaluation
+5. Model Evaluation
+
 Evaluated with:
+
 -Confusion Matrix
+
 -Classification Report (Precision, Recall, F1-score)
+
 -ROC Curve and ROC AUC Score
 
-5. Threshold Tuning
+6. Threshold Tuning
+
 -Demonstrated how changing the classification threshold affects predictions
 
-6. Sigmoid Function Visualization
+7. Sigmoid Function Visualization
+
 -Plotted the sigmoid function to explain how logistic regression outputs probabilities
 
 ## Model Performance
+
 Accuracy       : 97%
+
 Precision (M)  : 0.98
 Recall (M)     : 0.95
+
 ROC AUC Score  : 0.997
 
 ## Visualizations Included
+
 -ROC Curve
+
 -Confusion Matrix (default and threshold-adjusted)
+
 -Sigmoid function plot
 
 
